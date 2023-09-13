@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.formulario {
+  margin: 3%;
+}
+
+.grupo {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.grupo label {
+  padding: 12px;
+  text-transform: uppercase;
+  font-weight: bold;
+  width: 500px;
+}
+
+.grupo input {
+  padding: 10px;
+  text-transform: uppercase;
+  font-weight: bold;
+
+  background-color: #08f9f53d;
+  border-radius: 12px;
+}

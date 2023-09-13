@@ -35,3 +35,12 @@ const restaurant = {
 const { categories: newCategories } = restaurant;
 
 console.log(newCategories);
+
+// Destruturing del schedule fri: open|close
+const {
+  schedule: {
+    fri: { open, close },
+  },
+} = restaurant;
+
+console.log(close);
